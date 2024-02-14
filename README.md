@@ -101,7 +101,7 @@ You can also customize chatbot with different configuration
     },
     theme: {
       button: {
-        backgroundColor: '#3B81F6',
+        backgroundColor: '#0037FF',
         right: 20,
         bottom: 20,
         size: 'medium',
@@ -110,9 +110,9 @@ You can also customize chatbot with different configuration
       },
       chatWindow: {
         showTitle: true, // show/hide the title bar
-        title: 'Flowise Bot',
+        title: 'Bicatalyst Bot',
         titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-        welcomeMessage: 'Hello! This is custom welcome message',
+        welcomeMessage: "Hi there! I'm your Bicatalyst Assistant. How can I assist you today?",
         backgroundColor: '#ffffff',
         height: 700,
         width: 400,
@@ -125,7 +125,7 @@ You can also customize chatbot with different configuration
           avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png',
         },
         userMessage: {
-          backgroundColor: '#3B81F6',
+          backgroundColor: '#0037FF',
           textColor: '#ffffff',
           showAvatar: true,
           avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png',
@@ -134,7 +134,7 @@ You can also customize chatbot with different configuration
           placeholder: 'Type your question',
           backgroundColor: '#ffffff',
           textColor: '#303235',
-          sendButtonColor: '#3B81F6',
+          sendButtonColor: '#0037FF',
         },
       },
     },
